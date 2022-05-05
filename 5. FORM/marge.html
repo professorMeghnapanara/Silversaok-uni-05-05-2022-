@@ -1,0 +1,87 @@
+<!--using all attribute with form-->
+<!Doctype html>
+<html>
+	<head>
+		<title>
+				Improvemnent 
+		</title>
+	</head>
+	<body>
+		
+		<h1 align ="center">
+		<font color='red'>
+		All Attribute using 1 task regarding to form
+		</font> 
+		</h1></br>
+		
+		<fieldset>
+			<legend>ADMISSION FORM </legend> <br/>
+			
+			FIRST NAME : 		
+			<input type="text" autofocus placeholder="Enter your First Name " maxlength="5" /><br/><br/>
+			MIDDLE NAME :
+			<input type="text" autofocus placeholder="Enter your Middle Name " maxlength="10" /><br/><br/>
+			LAST NAME : 
+			<input type="text" autofocus placeholder="Enter your Last Name " maxlength="10" /><br/><br/>
+			
+			ADDRESS:
+			<textarea rows="3" placeholder="Enter Address Here.." maxlength="200">
+			address must be required  
+			</textarea> <br/><br/>
+			
+			STREAM CHOICE :
+			<input type="radio" id="s1" name="SUBJECT" /><label for="G1">BCA</label>&nbsp;&nbsp;
+			<input type="radio" id="s2" name="SUBJECT" /><span>MCA</span> <br/><br/>
+				
+			ARE YOU INTERESTED IN WHICH SUBJECT ?</br></br>
+				<input type="checkbox"/> C  </br>
+				<input type="checkbox"/> JAVA </br>
+				<input type="checkbox"/> .NET </br>
+				<input type="checkbox"/> IOS</br></br>
+			
+			ADD YOUR PHOTOS AND DOCUMENT <br/><br/>
+			
+			IMAGE <input type="file" multiple accept=".jpg,.jpeg,.png" /> <br/><br/>
+			FILE <input type="file" multiple accept=".doc ,.exe,.pdf," />
+			
+		</fieldset> <br/><br/>
+			<h3>AFTER FORM FILLING YOU HAVE TO SELECT YOUR PERSONAL INTERVIEW 
+			DATE ,TIME AND DRESSCODE COLOR AND YOUR INTEREST 
+			DESCRIBE IN RANGE AT THAT TIME :
+			</h3>
+			<table border ='10';>
+			<thead>
+				<tr>
+					<th><font size ='15' font color ='blue'>SELECT DATA </th>					
+				</tr >
+			</thead>
+			<tbody>
+				<tr>
+					<td><font size ='5' font color ='red'>DATE : <input type="date" /></td>
+				</tr>
+				<tr>
+					<td><font size ='5' font color ='PINK'>TIME : <input type="time" /></td>
+				</tr>
+				<tr>
+					<td><font size ='5' font color ='ORANGE'>COLOR: <input type="color" /></td>
+				</tr>
+				<tr>
+					<td><font size ='5' font color ='green'>RANGE :<input type="range" /></td>
+				</tr>
+		</table><br/><br/>
+		
+		*FORM FILLING & INTERVIEW SETUP AFTER MUST BE REQUIRED SIGN IN *
+		<fieldset>
+			<legend>Sign In </legend>
+			
+			<span>Username:</span> 
+			<input type="text" placeholder="Enter Username Here.." maxlength="50" /><br/><br/>
+			
+			<span>Password:</span>
+			<input type="password" placeholder="Enter Password Here.." maxlength="12" /><br/><br/>
+			
+			<input type="button" value="Sign In" />
+		
+		</fieldset>
+	</body>
+</html>
